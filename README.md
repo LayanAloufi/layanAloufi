@@ -55,7 +55,7 @@ pull_request:Runs the workflow when someone asks to merge their changes into ano
 GitHub Actions secrets are encrypted values stored securely in a GitHub repository. They are used to store sensitive information such as passwords and API keys, and are used to protect confidential information from being exposed in the repository
 
 
-##CI Pipeline
+## CI Pipeline
 
 Whenever code is pushed to the `main` branch or a pull request is created, the workflow automatically:
 
