@@ -21,8 +21,7 @@ http://localhost:5000
 ## Questionnaire
 Docker Questions
 1. What is Docker, and why do we use it?
-   
--Docker is a platform that packages an application and all of its dependencies into a container. 
+Docker is a platform that packages an application and all of its dependencies into a container. 
 We use Docker because it:
 Provides a consistent environment across development, testing, and production,which ensures the application runs the same way on any machine, regardless of the operating system or installed software.
 
@@ -49,7 +48,8 @@ GitHub Actions Questions
 GitHub Actions is GitHub's built-in automation and Continuous Integration/Continuous Deployment (CI/CD) platform. It allows developers to automatically run workflows when events occur, such as pushing code or creating a pull request.
 
 2. What is the difference between push and pull_request triggers in GitHub Actions?
-push checks changes after they are pushed, while pull_request checks changes before they are merged.
+push: Runs the workflow after someone pushes code to the repository.
+pull_request:Runs the workflow when someone asks to merge their changes into another branch .
 
 3. What are GitHub Actions secrets, and why should we use them instead of writing sensitive values directly in the workflow file?
 GitHub Actions secrets are encrypted values stored securely in a GitHub repository. They are used to store sensitive information such as passwords and API keys, and are used to protect confidential information from being exposed in the repository
