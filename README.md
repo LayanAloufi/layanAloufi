@@ -31,13 +31,14 @@ A Docker image is a read-only template that contains the application, its depend
 3.   Why do we use a Dockerfile, and what is its purpose?
    A Dockerfile is a text file that contains instructions for building a Docker image. Docker reads the Dockerfile step by step      to create an image that includes the application, its dependencies, and the configuration needed to run it.
 
-4.What do these Docker command flags do?
--d (Detached mode)
-Runs the container in the background, allowing to continue using the terminal.
--p (Port mapping)
-Maps a port on the host machine to a port inside the container, allowing access to the application from outside the container.
---rm
-Automatically removes the container after it stops, preventing unused containers from accumulating.
+4.   What do these Docker command flags do?
+
+-d (Detached mode):Runs the container in the background, allowing to continue using the terminal.
+                           
+-p (Port mapping):Maps a port on the host machine to a port inside the container, allowing access to the application from outside the container.
+
+--rm:Automatically removes the container after it stops, preventing unused containers from accumulating.
+
 
 
 GitHub Actions Questions
