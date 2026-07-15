@@ -42,6 +42,8 @@ A Docker image is a read-only template that contains the application, its depend
 
 
 GitHub Actions Questions
+
+
 1.What is GitHub Actions, and why do we use it in DevOps?
 GitHub Actions is GitHub's built-in automation and Continuous Integration/Continuous Deployment (CI/CD) platform. It allows developers to automatically run workflows when events occur, such as pushing code or creating a pull request.
 
