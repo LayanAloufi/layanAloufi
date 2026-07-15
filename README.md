@@ -1,16 +1,18 @@
-## Hi there 👋
+# Build and Run the Docker Container
 
-<!--
-**LayanAloufi/layanAloufi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Build the Docker image
+Run the following command:
 
-Here are some ideas to get you started:
+docker build -t  layan-app .
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Run the Docker container
+Run the following command:
+
+docker run --name layan-container -p 5000:5000 layan-app
+
+
+## Access the application
+visit:
+http://localhost:5000
+
