@@ -28,7 +28,7 @@ Provides a consistent environment across development, testing, and production,wh
 2. What is the difference between a Docker image and a Docker container?
 A Docker image is a read-only template that contains the application, its dependencies, libraries, and configuration needed to run it, while a Docker container is a running instance of a Docker image. Multiple containers can be created from the same image, and each container runs independently.
 
-   3.Why do we use a Dockerfile, and what is its purpose?
+3.   Why do we use a Dockerfile, and what is its purpose?
    A Dockerfile is a text file that contains instructions for building a Docker image. Docker reads the Dockerfile step by step      to create an image that includes the application, its dependencies, and the configuration needed to run it.
 
 4.What do these Docker command flags do?
