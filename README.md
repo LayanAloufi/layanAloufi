@@ -44,10 +44,10 @@ A Docker image is a read-only template that contains the application, its depend
 GitHub Actions Questions
 
 
-1.What is GitHub Actions, and why do we use it in DevOps?
+1. What is GitHub Actions, and why do we use it in DevOps?
 GitHub Actions is GitHub's built-in automation and Continuous Integration/Continuous Deployment (CI/CD) platform. It allows developers to automatically run workflows when events occur, such as pushing code or creating a pull request.
 
-2.What is the difference between push and pull_request triggers in GitHub Actions?
+2. What is the difference between push and pull_request triggers in GitHub Actions?
 push checks changes after they are pushed, while pull_request checks changes before they are merged.
 
 3. What are GitHub Actions secrets, and why should we use them instead of writing sensitive values directly in the workflow file?
