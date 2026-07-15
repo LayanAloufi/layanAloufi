@@ -21,7 +21,8 @@ http://localhost:5000
 ## Questionnaire
 Docker Questions
 1. What is Docker, and why do we use it?
-Docker is a platform that packages an application and all of its dependencies into a container. 
+   
+-Docker is a platform that packages an application and all of its dependencies into a container. 
 We use Docker because it:
 Provides a consistent environment across development, testing, and production,which ensures the application runs the same way on any machine, regardless of the operating system or installed software.
 
