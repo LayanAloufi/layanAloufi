@@ -54,3 +54,15 @@ pull_request:Runs the workflow when someone asks to merge their changes into ano
 3. What are GitHub Actions secrets, and why should we use them instead of writing sensitive values directly in the workflow file?
 GitHub Actions secrets are encrypted values stored securely in a GitHub repository. They are used to store sensitive information such as passwords and API keys, and are used to protect confidential information from being exposed in the repository
 
+
+# CI Pipeline
+
+Whenever code is pushed to the `main` branch or a pull request is created, the workflow automatically:
+
+1. Checks out the repository.
+2. Sets up Python.
+3. Installs the project dependencies.
+4. Builds the Docker image.
+
+If all steps complete successfully, the workflow finishes with a green check, confirming that the project and Docker image can be built successfully.
+
